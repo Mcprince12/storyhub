@@ -12,7 +12,7 @@ export default class WriteStoryScreen extends React.Component{
                 placeholder={"Story Title"}/>
                 <TextInput style = {styles.inputBox}
                 placeholder={"Author"}/>
-                <TextInput style = {styles.inputBox} multiline={true}
+                <TextInput style = {styles.inputBox2} multiline={true}
                 placeholder={"Write Story Here"}/>
 
                 <TouchableOpacity style={styles.button}>
@@ -31,6 +31,15 @@ const styles = StyleSheet.create({
         width: '80%',
         alignSelf: 'center',
         height: 40,
+        textAlign: 'center',
+        borderWidth: 4,
+        outline: 'none',
+      },
+      inputBox2: {
+        marginTop: 10,
+        width: '80%',
+        alignSelf: 'center',
+        height: 400,
         textAlign: 'center',
         borderWidth: 4,
         outline: 'none',
